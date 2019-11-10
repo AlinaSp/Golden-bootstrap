@@ -11,21 +11,65 @@
 
   <div class="section dark-gray">
 		<div class="container">
-			<div class="row header justify-content-between align-items-center">
+			<div class="row header full-size justify-content-between align-items-center">
 				<div class="col-lg-1">
-					<img class="logo" src="img/logo.png" alt="logo">
+					<a href="#">
+					  <img class="logo" src="img/logo.png" alt="logo">
+					</a>
 				</div>
-				<div class="col-lg-6 d-flex justify-content-end">
+				<div class="col-lg-11 d-flex justify-content-end">
 					<nav class="nav">
-						<a class="nav-item is-active" href="#">HOME</a>
-						<a class="nav-item" href="#">SERVICES</a>
-						<a class="nav-item" href="#">PORTFOLIO</a>
-						<a class="nav-item" href="#">ABOUT</a>
-						<a class="nav-item" href="#">CONTACT</a>
+						<a class="nav-item is-active" href="#home">HOME</a>
+						<a class="nav-item" href="#services">SERVICES</a>
+						<a class="nav-item" href="#portfolio">PORTFOLIO</a>
+						<a class="nav-item" href="#about">ABOUT</a>
+						<a class="nav-item" href="#contact">CONTACT</a>
 					</nav>
 				</div>
+				
 			</div>
-			<div class="row hero">
+			<div class="row header mobile">
+				<nav class="navbar navbar-light light-blue lighten-4">
+
+				  <!-- Navbar brand -->
+				  <a class="navbar-brand" href="#">
+				  	<img class="logo" src="img/logo.png" alt="logo">
+				  </a>
+
+				  <!-- Collapse button -->
+				  <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+				    aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"><i
+				        class="fas fa-bars fa-1x"></i></span></button>
+
+				  <!-- Collapsible content -->
+				  <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+
+				    <!-- Links -->
+				    <ul class="navbar-nav mr-auto">
+				      <li class="nav-item active">
+				        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="#services">Services</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="#portfolio">Portfolio</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="#about">About</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="#contact">Contact</a>
+				      </li>
+				    </ul>
+				    <!-- Links -->
+
+				  </div>
+				  <!-- Collapsible content -->
+
+				</nav>
+			</div>
+			<div class="row hero" id="home">
 				<div class="col-lg-12 text-center">
 					<h2 class="section-title">Welcome To Our Studio!</h2>
 					<h1 class="hero-title">It’s nice to Meet you</h1>
@@ -35,7 +79,7 @@
 		</div>
   </div>
 
-  <div class="section white padding-y-120">
+  <div class="section white padding-y-120" id="services">
   	<div class="container">
 	  	<div class="row">
 	  		<div class="col-lg-12 text-center">
@@ -75,7 +119,7 @@
 	  </div>
   </div>
 
-  <div class="section light-gray padding-y-120">
+  <div class="section light-gray padding-y-120" id="portfolio">
   	<div class="container">
 	  	<div class="row">
 	  		<div class="col-lg-12 text-center">
@@ -144,7 +188,7 @@
 	  </div>
   </div>
 
-  <div class="section light-gray padding-y-120">
+  <div class="section light-gray padding-y-120" id="team">
   	<div class="container">
 	  	<div class="row">
 	  		<div class="col-lg-12 text-center">
@@ -239,22 +283,30 @@
   	<div class="container">
 	  	<div class="row mx-md-5 p-md-5">
 	  		<div class="col-lg-3">
-	  			<img class="partner" src="img/envato.jpg" alt="partner">
+	  			<a href="#">
+	  				<img class="partner" src="img/envato.jpg" alt="partner">
+	  			</a>
 	  		</div>
 	  		<div class="col-lg-3">
-	  			<img class="partner" src="img/wordpress.jpg" alt="partner">
+	  			<a href="#">
+	  				<img class="partner" src="img/wordpress.jpg" alt="partner">
+	  			</a>
 	  		</div>
 	  		<div class="col-lg-3">
-	  			<img class="partner" src="img/tuts.jpg" alt="partner">
+	  			<a href="#">
+	  				<img class="partner" src="img/tuts.jpg" alt="partner">
+	  			</a>
 	  		</div>
 	  		<div class="col-lg-3">
-	  			<img class="partner" src="img/micro.jpg" alt="partner">
+	  			<a href="#">
+	  				<img class="partner" src="img/micro.jpg" alt="partner">
+	  			</a>
 	  		</div>
 	  	</div>
 	  </div>
   </div>
 
-  <div class="section dark-gray padding-y-120">
+  <div class="section dark-gray padding-y-120" id="contact">
   	<div class="container">
 	  	<div class="row">
 	  		<div class="col-lg-12 text-center">
@@ -307,7 +359,7 @@
             </li>
             <li class="card-list-item gplus mx-2 px-2">
               <a class="" href="#">
-              	<img class="social-icon" alt="icon" src="img/gplus-w.png">
+              	<img class="social-icon align-middle" alt="icon" src="img/gplus-w.png">
               </a>
             </li>
           </ul>
