@@ -1,0 +1,107 @@
+.section.dark-gray {
+	background-color: #444;
+	color: #fff;
+}
+
+.nav-item {
+	color: white;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 41px;
+	padding-left: 36px;
+}
+
+.nav-item.is-active {
+    color: #fed136;
+}
+
+.nav-item:hover {
+    color: #fed136;
+    text-decoration: none;
+}
+
+.logo {
+	padding: 40px 0;
+}
+
+.hero {
+	padding: 150px 0;
+}
+
+.section-title {
+	font-size: 40px;
+	font-weight: bold;
+	line-height: 75px;
+	letter-spacing: -1px;
+	text-transform: uppercase;
+}
+
+.hero .section-title {
+	text-transform: none;
+	font-weight: 400;
+}
+
+.hero-title {
+	font-size: 75px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: -1.88px;
+	line-height: 100px;
+	padding-bottom: 50px;
+}
+
+.btn {
+	color: #ffffff;
+	font-size: 24px;
+	font-weight: 400;
+	text-transform: uppercase;
+	background-color: #fed136;
+	padding: 17px 30px;
+}
+
+.section-subtitle {
+	color: #777777;
+	font-size: 16px;
+	font-weight: 400;
+	padding-bottom: 76px;
+}
+
+.section-text {
+	color: #777777;
+	font-size: 16px;
+	font-weight: 400;
+	max-width: 500px;
+}
+
+.section.light-gray {
+	background-color: #f7f7f7;
+}
+
+.padding-y-120 {
+	padding: 120px 0;
+}
+
+.card {
+	border: none;
+}
+
+.card-title {
+	color: #333333;
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: -0.45px;
+}
+
+.card-text {
+	color: #737373;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.card-img-top.border-rad {
+	height: 67px;
+	width: 67px;
+	padding: 10px;
+	border: 3px solid #fed136;
+	border-radius: 50%; 
+}
