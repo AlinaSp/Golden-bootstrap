@@ -199,15 +199,54 @@ input.form-control {
 	text-transform: uppercase;
 }
 
-.header.full-size {
+.header.mobile {
 	display: none;
 }
 
- @media (min-width: 992px) {
-    .header.full-size {
-	    display: flex;
-    }
+.header.full-size {
+	display: flex;
+}
+
+.footer .card-list {
+	margin: 25px 0;
+}
+
+ @media (max-width: 991px) {
     .header.mobile {
-    	display: none;
+    	display: flex;
     }
+    .header.full-size {
+	    display: none;
+    }
+    .hero {
+    	padding: 70px 0;
+    }
+    .padding-y-120 {
+    	padding: 60px 0;
+    }
+    .section-subtitle {
+    	padding-bottom: 40px;
+    }
+    .section-text {
+    	text-align: center;
+    	margin: 0 auto;
+    }
+    .partner {
+    	padding: 10px 0;
+    }
+    .footer {
+    	padding-top: 20px;
+    }
+ }
+
+ @media (max-width: 767px) {
+ 	.logo {
+ 		padding: 20px 0;
+ 	}
+ 	.hero {
+ 		padding-top: 30px;
+ 	}
+ 	.partner {
+ 		padding: 20px 0;
+ 	}
  }
