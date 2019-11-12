@@ -151,6 +151,10 @@ p {
 	background-color: #222222;
 }
 
+.card-list-item:hover img.social-icon.invert {
+	filter: invert(1);
+}
+
 .card-list-item.twitter:hover {
 	border: 3px solid #00aced;
 	border-radius: 50%;
