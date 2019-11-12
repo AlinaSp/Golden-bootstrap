@@ -120,6 +120,12 @@ p {
 	border-radius: 50%; 
 }
 
+.card-img-top.border-rad > .card-img-top {
+	height: 37px;
+    width: auto;
+    display: flex;
+}
+
 .card-img-top.photo {
 	width: 220px;
 	height: 220px;
@@ -135,6 +141,9 @@ p {
 	height: 41px;
 	border: 3px solid #222222;
 	border-radius: 50%;
+	display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer .card-list-item {
@@ -248,5 +257,34 @@ input.form-control {
  	}
  	.partner {
  		padding: 20px 0;
+ 	}
+ }
+
+ @media (max-width: 575px) {
+ 	.hero-title {
+ 		font-size: 45px;
+ 		line-height: 50px;
+ 		padding-bottom: 30px;
+ 	}
+ 	.section-title {
+ 		font-size: 30px;
+ 		line-height: 30px;
+ 	}
+ 	.btn {
+ 		padding: 9px 15px;
+ 		font-size: 20px;
+ 	}
+ 	.card {
+ 		margin: 20px 0;
+ 	}
+ }
+
+ @media (max-width: 370px) {
+ 	.card-img-top.photo {
+ 		width: 190px;
+ 		height: 190px;
+ 	}
+ 	.card-list-item {
+ 		margin: 0 4px !important;
  	}
  }
